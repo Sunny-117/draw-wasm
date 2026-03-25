@@ -22,7 +22,7 @@ module.exports = {
         })
     ],
     mode: 'development',
-    // experiments: {
-    //     asyncWebAssembly: true
-    // }
+    experiments: {
+        asyncWebAssembly: true
+    }
 };
